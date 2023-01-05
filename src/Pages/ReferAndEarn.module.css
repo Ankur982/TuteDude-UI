@@ -1,0 +1,27 @@
+.container {
+	box-sizing: border-box;
+	max-width: 1366px;
+	padding: 0px 187px;
+	margin: auto;
+}
+.uiux {
+	box-sizing: border-box;
+	background-color: rgb(255, 255, 255);
+	display: flex;
+	text-align: center;
+	height: 76px;
+	padding: 25px 0px;
+	gap: 3px;
+	font-size: 14px;
+	line-height: 21px;
+}
+
+.icons {
+	margin-top: 2px;
+	font-size: 12px;
+}
+
+.uiux > Link {
+	text-decoration: none;
+	color: black;
+}

@@ -1,0 +1,45 @@
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.container > div:nth-child(1) > div:nth-child(1) {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	color: #800080;
+}
+
+.container > div:nth-child(1) > div:nth-child(2) {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin-top: 5px;
+	border: 1px solid #d3d3d3;
+	text-align: center;
+	border-radius: 10px;
+	padding: 8px 20px;
+	font-weight: 600;
+}
+
+.container > div:nth-child(2) {
+	width: 145px;
+	height: 85px;
+	left: 1034px;
+	top: 151px;
+	padding: 25px 20px;
+	box-sizing: border-box;
+	font-size: 14px;
+	background: #ffffff;
+	color: #800080;
+	box-shadow: 0px 2px 8px rgba(128, 0, 128, 0.15);
+	border-radius: 20px;
+}
+
+.container > div:nth-child(2) > div:nth-child(2) {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	text-align: left;
+	color: black;
+}

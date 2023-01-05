@@ -1,0 +1,36 @@
+.navbar {
+	display: flex;
+	max-width: 1366px;
+	margin: auto;
+	height: 73px;
+	padding: 6px 5% 4.03px;
+	justify-content: space-between;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.logo {
+	width: 160px;
+}
+
+.navbardiv {
+	display: flex;
+	gap: 28px;
+	color: #80008040;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.navbardiv > div:nth-last-child(1) {
+	color: #800080;
+}
+
+.icon {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+.user {
+	font-size: 20px;
+}
