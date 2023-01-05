@@ -19,6 +19,7 @@
 	color: #80008040;
 	font-weight: bold;
 	font-size: 18px;
+	box-sizing: border-box;
 }
 
 .navbardiv > div:nth-last-child(1) {
@@ -33,4 +34,40 @@
 
 .user {
 	font-size: 20px;
+}
+
+.arrow {
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 415px) {
+	.navbar {
+		display: flex;
+		margin: 0px 2%;
+		height: 73px;
+		padding: 62px 0px 4.03px;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+	}
+
+	.navbardiv > div:nth-child(1) {
+		display: none;
+	}
+
+	.navbardiv > div:nth-child(2) {
+		display: none;
+	}
+
+	.navbardiv > div:nth-last-child(1) {
+		background-color: #800080;
+		margin-right: 10px;
+		padding: 5px 10px;
+		color: white;
+		border-radius: 10px;
+	}
+
+	.user {
+		display: none;
+	}
 }

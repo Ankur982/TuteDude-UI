@@ -29,7 +29,7 @@ const Navbar = () => {
 					<div className={styled.icon}>
 						{ele.icon ? <FaUserCircle className={styled.user} /> : <></>}
 						<div>{ele.name}</div>
-						{ele.arrow ? <IoIosArrowDown className={styled.user} /> : <></>}
+						{ele.arrow ? <IoIosArrowDown className={styled.arrow} /> : <></>}
 					</div>
 				))}
 			</div>
