@@ -4,9 +4,29 @@ import { IoIosArrowForward } from "react-icons/io";
 import { IoArrowBack } from "react-icons/io5";
 import Referral from "../Referral/Referral";
 import Cards from "../Cards/Cards";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const AppBody = () => {
+  let activeStyle = {
+    textDecoration: "none",
+    color: "black",
+  };
+
+  let deactiveStyle = {
+    textDecoration: "none",
+    color: "black",
+  };
+
+  let activeStyleMobile = {
+    textDecoration: "none",
+    color: "black",
+  };
+
+  let deactiveStyleMobile = {
+    textDecoration: "none",
+    color: "black",
+  };
+  
   return (
     <div className={styled.container}>
       {/* Refer And Earn starts*/}
@@ -15,23 +35,34 @@ const AppBody = () => {
         <div className={styled.icons}>
           <IoIosArrowForward />
         </div>
-        <Link to={"/referandearn"}>
+        <NavLink
+          to="/referAndEarn"
+          style={({ isActive }) => (isActive ? activeStyle : deactiveStyle)}
+        >
           <div>Refer & Earn</div>
-        </Link>
+        </NavLink>
         <div className={styled.icons}>
           <IoIosArrowForward />
         </div>
-        <Link to={"/"}>
+        <NavLink
+          to="/"
+          style={({ isActive }) =>
+            isActive ? activeStyleMobile : deactiveStyleMobile
+          }
+        >
           <div>Friends Referred</div>
-        </Link>
+        </NavLink>
       </div>
 
-      <Link to={"/"}>
+      <NavLink
+        to="/referAndEarn"
+        style={({ isActive }) => (isActive ? activeStyle : deactiveStyle)}
+      >
         <div className={styled.goback}>
           <IoArrowBack />
           <div>go back</div>
         </div>
-      </Link>
+      </NavLink>
 
       {/* Refer And Earn ends*/}
 
