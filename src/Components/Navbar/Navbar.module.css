@@ -22,7 +22,7 @@
 	box-sizing: border-box;
 }
 
-.navbardiv > div:nth-last-child(1) {
+.navbardiv>div:nth-last-child(1) {
 	color: #800080;
 }
 
@@ -51,15 +51,15 @@
 		box-sizing: border-box;
 	}
 
-	.navbardiv > div:nth-child(1) {
+	.navbardiv>div:nth-child(1) {
 		display: none;
 	}
 
-	.navbardiv > div:nth-child(2) {
+	.navbardiv>div:nth-child(2) {
 		display: none;
 	}
 
-	.navbardiv > div:nth-last-child(1) {
+	.navbardiv>div:nth-last-child(1) {
 		background-color: #800080;
 		margin-right: 10px;
 		padding: 5px 10px;

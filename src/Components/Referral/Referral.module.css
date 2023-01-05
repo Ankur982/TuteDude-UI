@@ -3,14 +3,14 @@
 	justify-content: space-between;
 }
 
-.container > div:nth-child(1) > div:nth-child(1) {
+.container>div:nth-child(1)>div:nth-child(1) {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
 	color: #800080;
 }
 
-.container > div:nth-child(1) > div:nth-child(2) {
+.container>div:nth-child(1)>div:nth-child(2) {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;
@@ -22,7 +22,7 @@
 	font-weight: 600;
 }
 
-.container > div:nth-child(2) {
+.container>div:nth-child(2) {
 	width: 145px;
 	height: 85px;
 	left: 1034px;
@@ -36,7 +36,7 @@
 	border-radius: 20px;
 }
 
-.container > div:nth-child(2) > div:nth-child(2) {
+.container>div:nth-child(2)>div:nth-child(2) {
 	font-size: 16px;
 	font-weight: 500;
 	line-height: 24px;

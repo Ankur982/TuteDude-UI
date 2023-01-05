@@ -3,7 +3,7 @@
 	top: 296px;
 }
 
-.container > div:nth-child(1) {
+.container>div:nth-child(1) {
 	color: #800080;
 	font-weight: bold;
 }
@@ -16,12 +16,12 @@
 	gap: 30px;
 }
 
-.view > div {
+.view>div {
 	flex-basis: 48%;
 	display: flex;
 }
 
-.view > div > div:nth-child(1) {
+.view>div>div:nth-child(1) {
 	display: flex;
 	box-sizing: border-box;
 	flex-basis: 18%;
@@ -32,20 +32,20 @@
 	border-radius: 50%;
 }
 
-.view > div > div:nth-child(2) {
+.view>div>div:nth-child(2) {
 	margin-left: 20px;
 	flex-basis: 80%;
 	font-size: 16px;
 	font-weight: bold;
 }
 
-.view > div > div:nth-child(2) > div:nth-child(2) {
+.view>div>div:nth-child(2)>div:nth-child(2) {
 	font-size: 16px;
 	color: #4d4d4d;
 	font-weight: 400;
 }
 
-.container > div:nth-child(3) {
+.container>div:nth-child(3) {
 	color: #800080;
 	margin-top: 60px;
 	font-size: 16px;
@@ -54,7 +54,7 @@
 	text-align: left;
 }
 
-.container > div:nth-child(4) {
+.container>div:nth-child(4) {
 	color: #800080;
 	margin-top: 20px;
 	margin-bottom: 50px;
@@ -62,4 +62,33 @@
 	font-weight: 500;
 	line-height: 24px;
 	text-align: left;
+}
+
+@media only screen and (max-width: 415px) {
+	.view {
+		display: flex;
+		flex-direction: column;
+		width: 400px;
+		margin-top: 24px;
+		flex-wrap: wrap;
+		box-sizing: border-box;
+		gap: 30px;
+	}
+
+	.view>div {
+		flex-basis: 100%;
+	}
+
+	.view>div>div:nth-child(2) {
+		margin-left: 20px;
+		flex-basis: 65%;
+		font-size: 16px;
+		font-weight: bold;
+	}
+
+	.view>div>div:nth-child(2)>div:nth-child(2) {
+		font-size: 14px;
+		color: #4d4d4d;
+		font-weight: 400;
+	}
 }

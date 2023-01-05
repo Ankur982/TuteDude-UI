@@ -4,6 +4,7 @@
 	padding: 0px 187px;
 	margin: auto;
 }
+
 .uiux {
 	box-sizing: border-box;
 	background-color: rgb(255, 255, 255);
@@ -21,7 +22,20 @@
 	font-size: 12px;
 }
 
-.uiux > Link {
+.uiux>Link {
 	text-decoration: none;
 	color: black;
+}
+
+@media only screen and (max-width: 415px) {
+	.container {
+		box-sizing: border-box;
+		padding: 0px 5%;
+		margin: auto;
+	}
+
+	.uiux {
+		margin-top: 26px;
+		background-color: white;
+	}
 }

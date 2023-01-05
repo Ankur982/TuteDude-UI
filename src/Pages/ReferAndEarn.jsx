@@ -6,27 +6,26 @@ import Work from "../Components/Work/Work";
 import { Link } from "react-router-dom";
 
 const ReferAndEarn = () => {
-	return (
-		<div className={styled.container}>
-			{/* Refer And Earn*/}
-			<div className={styled.uiux}>
-				<div>UI/UX</div>
-				<div className={styled.icons}>
-					<IoIosArrowForward />
-				</div>
-				<Link to={"/referandearn"}>
-				<div>Refer & Earn</div>
-				</Link>
-			</div>
+  return (
+    <div className={styled.container}>
+      {/* Refer And Earn*/}
+      <div className={styled.uiux}>
+        <div>UI/UX</div>
+        <div className={styled.icons}>
+          <IoIosArrowForward />
+        </div>
+        <Link to={"/referAndEarn"}>
+          <div>Refer & Earn</div>
+        </Link>
+      </div>
 
-			{/* withdraw balance */}
-			<WithDrawn />
+      {/* withdraw balance */}
+      <WithDrawn />
+      {/* How does it work?? */}
 
-			{/* How does it work?? */}
-
-			<Work />
-		</div>
-	);
+      <Work />
+    </div>
+  );
 };
 
 export default ReferAndEarn;
